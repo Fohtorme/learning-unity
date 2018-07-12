@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class MenuEvents : MonoBehaviour {
     // Text events
     public Text eventsLog;
+    // Current active panel
+    private GameObject currentPanel;
 
 	// Use this for initialization
 	void Start () {
@@ -17,19 +19,18 @@ public class MenuEvents : MonoBehaviour {
 		
 	}
 
-    public void TestStagesButton()
+    public void CallPanelButton(GameObject panel)
     {
-        setEventsLogText("TestStagesButton()");
-    }
-
-    public void UITestButton()
-    {
-        setEventsLogText("UITestButton()");
-    }
-
-    public void OptionsButton()
-    {
-        setEventsLogText("OptionsButton()");
+        setEventsLogText("CallPanelButton(" + panel + ")");
+        // Desactive the current panel
+        if (currentPanel != null)
+        {
+            currentPanel.SetActive(false);
+        }
+        // Define new panel as current
+        currentPanel = panel;
+        // Active panel
+        panel.SetActive(true);
     }
 
     public void QuitButton()
