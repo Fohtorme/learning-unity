@@ -11,3 +11,5 @@
 # Temporary files #
 Temp/*
 .vs/*
+obj/*
+Library/metadata/*
