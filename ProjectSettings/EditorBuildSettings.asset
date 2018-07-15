@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/000.Menu/000.Menu.unity
+    guid: b9e357ed9acbea8458d0aec143861b8b
+  - enabled: 1
+    path: Assets/001.TPS/001.TPS.unity
+    guid: 35a61f015e3332d43a053f3ec3265000
   m_configObjects: {}
