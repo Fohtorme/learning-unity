@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/000.Menu/000.Menu.unity
+- path: Assets/001.TPS/001.TPS.unity
   isLoaded: 1
   isActive: 1
