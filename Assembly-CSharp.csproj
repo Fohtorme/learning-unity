@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\000.Menu\Scripts\MenuEvents.cs" />
     <Compile Include="Assets\000.Menu\Scripts\ScenesLoader.cs" />
+    <Compile Include="Assets\001.TPS\Scripts\Painting.cs" />
     <Compile Include="Assets\001.TPS\Scripts\Player.cs" />
     <Compile Include="Assets\999.OLD\Scripts\Mirror.cs" />
     <Compile Include="Assets\Scripts\GeneralFunctions.cs" />
